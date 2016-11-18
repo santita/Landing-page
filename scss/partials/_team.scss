@@ -1,0 +1,104 @@
+.team {
+    .title {
+        margin: 100px auto;
+        color: #676767;
+        position: relative;
+        h3 {
+            text-align: center;
+            font-size: 42px;
+            .baseColor {
+                color: rgb(159, 68, 155);
+            }
+        }
+    }
+    h3:after {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 50px;
+        left: 416px;
+        border-left: 1px solid rgb(159, 68, 155);
+        border-bottom: 1px solid rgb(159, 68, 155);
+    }
+    h3:before {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: -5px;
+        left: 640px;
+        border-right: 1px solid rgb(159, 68, 155);
+        border-top: 1px solid rgb(159, 68, 155);
+    }
+}
+.membersAll {
+    width: 250px;
+    height: 250px;
+    margin: 80px auto 60px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.members {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    .member1 {
+        .teamMember1 {
+            background-image: url('../images/teamMember1.jpg');
+            @extend .membersAll;
+        }
+    }
+    .member2 {
+        .teamMember2 {
+            background-image: url('../images/teamMember2.jpg');
+            @extend .membersAll;
+        }
+    }
+    .member3 {
+        .teamMember3 {
+            background-image: url('../images/teamMember3.jpeg');
+            @extend .membersAll;
+        }
+    }
+    h4.name {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        padding-bottom: 18px;
+        color:rgb(103, 103, 103);
+    }
+    p {
+        font-size: 18px;
+        line-height: 20px; 
+        color:rgb(103, 103, 103);
+    }
+    a{
+        display: inline-block;
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        margin:20px 10px;
+        border:1px solid rgb(103, 103, 103);;
+        text-decoration: none;
+        i{
+            font-size:20px;
+            text-align: center;
+            padding-top:15px;
+            color:rgb(103, 103, 103);
+            
+        }
+        &:hover{
+            background-color: rgb(103, 103, 103);
+            transition: background-color 0.7s ease;
+            i{
+                color:#fff;
+            }
+        }
+    }
+}

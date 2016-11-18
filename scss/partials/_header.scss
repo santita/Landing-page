@@ -1,0 +1,160 @@
+header {
+    background-image: url('../images/header.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.headerContainer {
+    text-align: center;
+    h1.title {
+        font-size: 60px;
+        margin: 0 auto;
+        padding: 45px 0;
+        span {
+            color: rgb(159, 68, 155);
+        }
+    }
+    h2.subTitle {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 18px;
+    }
+    p.description {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 18px;
+        margin-bottom: 75px;
+    }
+}
+.introductionContainer {
+    width: 100%;
+}
+.icons1 {
+    display: flex;
+    justify-content: center;
+    ul {
+        list-style-type: none;
+        padding: 0;
+//        width: 50%;
+        display: flex;
+        justify-content: center;
+        li {
+            display: inline;
+            position: relative;
+            height: 140px;
+            width: 140px;
+            background-image: url('../images/shape.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            &:hover {
+                background-image: url('../images/shapeViolet.png');
+                transition: background-image 0.7s ease;
+            }
+            a {
+                color: #fff;
+                text-decoration: none;
+                position: absolute;
+                top: 85px;
+                left: 0;
+            }
+        }
+    }
+}
+.icons2 {
+    display: flex;
+    justify-content: space-around;
+    ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        li {
+            height: 140px;
+            width: 140px;
+            display: inline;
+            position: relative;
+            background-image: url('../images/shape.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            &:hover {
+                background-image: url('../images/shapeViolet.png');
+                transition: background-image 0.7s ease;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+                position: absolute;
+                top: 85px;
+                left: 0;
+            }
+        }
+    }
+}
+.allicons {
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -52px;
+    left: 48px;
+}
+div.services {
+    @extend .allicons;
+    background-image: url('../images/services.png');
+}
+div.portfolio {
+    @extend .allicons;
+    background-image: url('../images/portfolio.png');
+}
+div.about {
+    @extend .allicons;
+    background-image: url('../images/about.png');
+}
+div.team {
+    @extend .allicons;
+    background-image: url('../images/team.png');
+}
+div.blog {
+    @extend .allicons;
+    background-image: url('../images/blog.png');
+}
+div.contact {
+    @extend .allicons;
+    background-image: url('../images/contact.png');
+}
+.icons3 {
+    width: 75px;
+    height: 125px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url('../images/arrow.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &:hover {
+        background-image: url('../images/arrowViolet.png');
+        transition: background-image 0.7s ease;
+        .scroller {
+            background-image: url('../images/arrowInViolet.png');
+            transition: background-image 0.7s ease;
+        }
+    }
+    a {
+        text-decoration: none;
+        .scroller {
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            background-image: url('../images/arrowIn.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+}

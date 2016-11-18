@@ -1,0 +1,98 @@
+.statisticsContent {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+    p {
+        text-align: center;
+        display: block;
+        color: #676767;
+        margin: 5px 0;
+        font-size: 18px;
+    }
+    p:first-of-type {
+        font-size: 42px;
+        font-weight: bold;
+    }
+}
+.photosAll {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testimonials {
+    text-align: center;
+    p {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 20px 0;
+    }
+    p:first-of-type {
+        font-size: 26px;
+        line-height: 28px;
+    }
+}
+.testimonials:first-of-type {
+    div.photo {
+        @extend .photosAll;
+        background-image: url('../images/teamMember4.jpeg');
+    }
+}
+.testimonials:nth-of-type(2) {
+    div.photo {
+        @extend .photosAll;
+        background-image: url('../images/teamMember2.jpg');
+    }
+}
+.testimonials:nth-of-type(3) {
+    div.photo {
+        @extend .photosAll;
+        background-image: url('../images/teamMember3.jpeg');
+    }
+}
+.testimonials:nth-of-type(4) {
+    div.photo {
+        @extend .photosAll;
+        background-image: url('../images/teamMember1.JPG');
+    }
+}
+.testimonials:nth-of-type(5) {
+    div.photo {
+        @extend .photosAll;
+        background-image: url('../images/teamMember5.jpeg');
+    }
+}
+.testimonials:nth-of-type(6) {
+    div.photo {
+        @extend .photosAll;
+        background-image: url('../images/teamMember2.jpg');
+    }
+}
+//---- Slider -----
+.testimonialsContent {
+    .bx-wrapper.bx-wrapper {
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: none;
+        background: none;
+        left: 0;
+    }
+}
+.bx-controls-direction {
+    bx-prev,
+    bx-next {
+        display: none;
+    }
+}
+.bx-pager {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 10% !important;
+    position: absolute;
+    left: 45%;
+}

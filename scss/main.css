@@ -1,0 +1,1126 @@
+/* line 1, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+header {
+  background-image: url("../images/header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+
+/* line 8, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+.headerContainer {
+  text-align: center; }
+  /* line 10, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+  .headerContainer h1.title {
+    font-size: 60px;
+    margin: 0 auto;
+    padding: 45px 0; }
+    /* line 14, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+    .headerContainer h1.title span {
+      color: #9f449b; }
+  /* line 18, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+  .headerContainer h2.subTitle {
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 18px; }
+  /* line 23, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+  .headerContainer p.description {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 18px;
+    margin-bottom: 75px; }
+
+/* line 30, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+.introductionContainer {
+  width: 100%; }
+
+/* line 33, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+.icons1 {
+  display: flex;
+  justify-content: center; }
+  /* line 36, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+  .icons1 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; }
+    /* line 42, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+    .icons1 ul li {
+      display: inline;
+      position: relative;
+      height: 140px;
+      width: 140px;
+      background-image: url("../images/shape.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+      /* line 51, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+      .icons1 ul li:hover {
+        background-image: url("../images/shapeViolet.png");
+        transition: background-image 0.7s ease; }
+      /* line 55, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+      .icons1 ul li a {
+        color: #fff;
+        text-decoration: none;
+        position: absolute;
+        top: 85px;
+        left: 0; }
+
+/* line 65, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+.icons2 {
+  display: flex;
+  justify-content: space-around; }
+  /* line 68, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+  .icons2 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; }
+    /* line 73, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+    .icons2 ul li {
+      height: 140px;
+      width: 140px;
+      display: inline;
+      position: relative;
+      background-image: url("../images/shape.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+      /* line 82, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+      .icons2 ul li:hover {
+        background-image: url("../images/shapeViolet.png");
+        transition: background-image 0.7s ease; }
+      /* line 86, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+      .icons2 ul li a {
+        text-decoration: none;
+        color: #fff;
+        position: absolute;
+        top: 85px;
+        left: 0; }
+
+/* line 96, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+.allicons, div.services, div.portfolio, div.about, div.team, div.blog, div.contact {
+  width: 45px;
+  height: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -52px;
+  left: 48px; }
+
+/* line 105, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+div.services {
+  background-image: url("../images/services.png"); }
+
+/* line 109, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+div.portfolio {
+  background-image: url("../images/portfolio.png"); }
+
+/* line 113, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+div.about {
+  background-image: url("../images/about.png"); }
+
+/* line 117, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+div.team {
+  background-image: url("../images/team.png"); }
+
+/* line 121, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+div.blog {
+  background-image: url("../images/blog.png"); }
+
+/* line 125, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+div.contact {
+  background-image: url("../images/contact.png"); }
+
+/* line 129, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+.icons3 {
+  width: 75px;
+  height: 125px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../images/arrow.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+  /* line 138, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+  .icons3:hover {
+    background-image: url("../images/arrowViolet.png");
+    transition: background-image 0.7s ease; }
+    /* line 141, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+    .icons3:hover .scroller {
+      background-image: url("../images/arrowInViolet.png");
+      transition: background-image 0.7s ease; }
+  /* line 146, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+  .icons3 a {
+    text-decoration: none; }
+    /* line 148, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_header.scss */
+    .icons3 a .scroller {
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      top: 50px;
+      left: 20px;
+      background-image: url("../images/arrowIn.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+
+/* line 2, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_footer.scss */
+footer p {
+  text-align: center;
+  font-size: 35px;
+  color: #676767;
+  padding: 10px 0;
+  margin: 30px auto; }
+  /* line 8, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_footer.scss */
+  footer p span {
+    color: #9f449b; }
+
+/* line 1, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+nav {
+  background-color: white; }
+  /* line 3, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+  nav .navContainer {
+    color: #676767;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0; }
+    /* line 9, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+    nav .navContainer p {
+      font-size: 30px; }
+      /* line 11, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+      nav .navContainer p span.baseColor {
+        color: #9f449b; }
+    /* line 15, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+    nav .navContainer #hamburgerMenu {
+      display: none; }
+    /* line 18, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+    nav .navContainer ul {
+      display: block;
+      text-align: right; }
+      /* line 22, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+      nav .navContainer ul li {
+        display: inline;
+        list-style-type: none; }
+      /* line 26, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+      nav .navContainer ul a {
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-left: 10px; }
+        /* line 31, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+        nav .navContainer ul a:hover {
+          color: #9f449b; }
+
+/* line 38, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_nav.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0px 15px 20px -15px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 15px 20px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 15px 20px -15px rgba(0, 0, 0, 0.5); }
+
+/* line 1, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+section#feature {
+  background-color: #eeeeee; }
+  /* line 3, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+  section#feature .featureContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; }
+    /* line 8, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+    section#feature .featureContainer .iconsFour, section#feature .featureContainer .heartIcon, section#feature .featureContainer .diamondIcon, section#feature .featureContainer .cupIcon, section#feature .featureContainer .phoneIcon {
+      width: 140px;
+      height: 140px;
+      margin: 167px auto 20px;
+      display: inline-block;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    /* line 17, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+    section#feature .featureContainer .heartIcon {
+      background-image: url("../images/heart.png"); }
+      /* line 20, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+      section#feature .featureContainer .heartIcon:hover {
+        background-image: url("../images/heartViolet.png");
+        transition: background-image 0.7s ease; }
+    /* line 25, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+    section#feature .featureContainer .diamondIcon {
+      background-image: url("../images/diamond.png"); }
+      /* line 28, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+      section#feature .featureContainer .diamondIcon:hover {
+        background-image: url("../images/diamondViolet.png");
+        transition: background-image 0.7s ease; }
+    /* line 33, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+    section#feature .featureContainer .cupIcon {
+      background-image: url("../images/cup.png"); }
+      /* line 36, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+      section#feature .featureContainer .cupIcon:hover {
+        background-image: url("../images/cupViolet.png");
+        transition: background-image 0.7s ease; }
+    /* line 41, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+    section#feature .featureContainer .phoneIcon {
+      background-image: url("../images/phone.png"); }
+      /* line 44, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+      section#feature .featureContainer .phoneIcon:hover {
+        background-image: url("../images/phoneViolet.png");
+        transition: background-image 0.7s ease; }
+    /* line 49, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+    section#feature .featureContainer h3 {
+      font-size: 22px;
+      margin: 20px auto; }
+    /* line 53, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_feature.scss */
+    section#feature .featureContainer p {
+      font-size: 15px;
+      margin-bottom: 200px; }
+
+/* line 2, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+.aboutContainer .title {
+  margin: 100px auto;
+  color: #676767;
+  position: relative; }
+  /* line 6, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+  .aboutContainer .title h3 {
+    text-align: center;
+    font-size: 42px; }
+    /* line 9, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+    .aboutContainer .title h3 .baseColor {
+      color: #9f449b; }
+
+/* line 14, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+.aboutContainer h3:after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50px;
+  left: 416px;
+  border-left: 1px solid #9f449b;
+  border-bottom: 1px solid #9f449b; }
+
+/* line 25, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+.aboutContainer h3:before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -5px;
+  left: 640px;
+  border-right: 1px solid #9f449b;
+  border-top: 1px solid #9f449b; }
+
+/* line 37, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+.aboutContent {
+  display: flex;
+  align-content: center;
+  margin-bottom: 120px; }
+  /* line 41, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+  .aboutContent .leftSide {
+    width: 50%;
+    height: 415px;
+    background-image: url("../images/leftSide.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  /* line 49, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+  .aboutContent .rightSide {
+    width: 50%;
+    padding-left: 20px; }
+    /* line 52, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+    .aboutContent .rightSide p {
+      font-size: 16px;
+      text-align: left;
+      margin: 58px 0 130px; }
+    /* line 57, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_about.scss */
+    .aboutContent .rightSide button {
+      width: 234px;
+      height: 77px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      background-color: #9f449b;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      cursor: pointer;
+      -webkit-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75); }
+
+/* line 1, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_quote.scss */
+.quote {
+  background-image: url("../images/quote.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  /* line 6, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_quote.scss */
+  .quote .quoteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    /* line 10, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_quote.scss */
+    .quote .quoteContainer .quoteIcon {
+      width: 140px;
+      height: 140px;
+      margin: 80px auto 0;
+      display: block;
+      position: relative;
+      padding-top: 120px;
+      background-image: url("../images/shape.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+      /* line 21, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_quote.scss */
+      .quote .quoteContainer .quoteIcon:hover {
+        background-image: url("../images/shapeViolet.png");
+        transition: background-image 0.7s ease; }
+      /* line 25, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_quote.scss */
+      .quote .quoteContainer .quoteIcon .smallIcon {
+        width: 45px;
+        height: 45px;
+        background-image: url("../images/hat.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 49px;
+        left: 49px; }
+    /* line 37, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_quote.scss */
+    .quote .quoteContainer p {
+      font-size: 32px;
+      text-align: center;
+      color: #fff;
+      margin-top: 30px;
+      margin-bottom: 150px; }
+
+/* line 2, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+.team .title {
+  margin: 100px auto;
+  color: #676767;
+  position: relative; }
+  /* line 6, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+  .team .title h3 {
+    text-align: center;
+    font-size: 42px; }
+    /* line 9, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+    .team .title h3 .baseColor {
+      color: #9f449b; }
+
+/* line 14, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+.team h3:after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50px;
+  left: 416px;
+  border-left: 1px solid #9f449b;
+  border-bottom: 1px solid #9f449b; }
+
+/* line 25, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+.team h3:before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -5px;
+  left: 640px;
+  border-right: 1px solid #9f449b;
+  border-top: 1px solid #9f449b; }
+
+/* line 37, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+.membersAll, .members .member1 .teamMember1, .members .member2 .teamMember2, .members .member3 .teamMember3 {
+  width: 250px;
+  height: 250px;
+  margin: 80px auto 60px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* line 46, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+.members {
+  text-align: center;
+  display: flex;
+  justify-content: space-around; }
+  /* line 51, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+  .members .member1 .teamMember1 {
+    background-image: url("../images/teamMember1.jpg"); }
+  /* line 57, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+  .members .member2 .teamMember2 {
+    background-image: url("../images/teamMember2.jpg"); }
+  /* line 63, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+  .members .member3 .teamMember3 {
+    background-image: url("../images/teamMember3.jpeg"); }
+  /* line 68, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+  .members h4.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    padding-bottom: 18px;
+    color: #676767; }
+  /* line 76, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+  .members p {
+    font-size: 18px;
+    line-height: 20px;
+    color: #676767; }
+  /* line 81, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+  .members a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px 10px;
+    border: 1px solid #676767;
+    text-decoration: none; }
+    /* line 89, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+    .members a i {
+      font-size: 20px;
+      text-align: center;
+      padding-top: 15px;
+      color: #676767; }
+    /* line 96, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+    .members a:hover {
+      background-color: #676767;
+      transition: background-color 0.7s ease; }
+      /* line 99, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_team.scss */
+      .members a:hover i {
+        color: #fff; }
+
+/* line 2, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+.skillsContainer .title {
+  margin: 100px auto;
+  color: #676767;
+  position: relative; }
+  /* line 6, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+  .skillsContainer .title h3 {
+    text-align: center;
+    font-size: 42px; }
+    /* line 9, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+    .skillsContainer .title h3 .baseColor {
+      color: #9f449b; }
+
+/* line 14, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+.skillsContainer h3:after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50px;
+  left: 416px;
+  border-left: 1px solid #9f449b;
+  border-bottom: 1px solid #9f449b; }
+
+/* line 25, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+.skillsContainer h3:before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -5px;
+  left: 640px;
+  border-right: 1px solid #9f449b;
+  border-top: 1px solid #9f449b; }
+
+/* line 36, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+.skillsContainer .skillsContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 120px; }
+  /* line 41, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+  .skillsContainer .skillsContent .skills {
+    position: relative;
+    margin: 10px;
+    width: 40%; }
+    /* line 45, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+    .skillsContainer .skillsContent .skills p {
+      font-size: 22px;
+      color: #676767;
+      display: inline; }
+    /* line 51, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+    .skillsContainer .skillsContent .skills p:first-of-type {
+      font-weight: bold; }
+    /* line 55, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+    .skillsContainer .skillsContent .skills p:last-of-type {
+      color: #f0f0f0; }
+    /* line 59, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+    .skillsContainer .skillsContent .skills .bar {
+      width: 100%;
+      height: 20px;
+      background-color: #f0f0f0;
+      margin: 10px 0; }
+      /* line 65, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_skills.scss */
+      .skillsContainer .skillsContent .skills .bar .barColor {
+        width: 1%;
+        height: 20px;
+        background-color: #9f449b; }
+
+/* line 2, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+.portfolio .title {
+  margin: 100px auto;
+  color: #676767;
+  position: relative; }
+  /* line 6, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+  .portfolio .title h3 {
+    text-align: center;
+    font-size: 42px; }
+    /* line 9, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+    .portfolio .title h3 .baseColor {
+      color: #9f449b; }
+
+/* line 14, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+.portfolio h3:after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50px;
+  left: 388px;
+  border-left: 1px solid #9f449b;
+  border-bottom: 1px solid #9f449b; }
+
+/* line 25, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+.portfolio h3:before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -5px;
+  left: 658px;
+  border-right: 1px solid #9f449b;
+  border-top: 1px solid #9f449b; }
+
+/* line 36, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+.portfolio .categoriesContainer {
+  text-align: center;
+  margin: 50px auto; }
+  /* line 39, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+  .portfolio .categoriesContainer div.tags {
+    width: 85px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid #676767;
+    border-radius: 5px;
+    color: #676767;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 5px;
+    padding-top: 5px; }
+    /* line 50, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+    .portfolio .categoriesContainer div.tags:hover {
+      background-color: #9f449b;
+      color: #fff;
+      transition: background-color 0.7s ease; }
+
+/* line 57, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+.portfolio .photoContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  /* line 61, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+  .portfolio .photoContainer div {
+    width: 30%;
+    margin: 5px 5px; }
+
+/* line 66, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_portfolio.scss */
+.portfolio button {
+  display: block;
+  margin: 20px auto;
+  width: 225px;
+  height: 75px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #9f449b;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75); }
+
+/* line 2, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+.contact .title {
+  margin: 100px auto;
+  color: #676767;
+  position: relative; }
+  /* line 6, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+  .contact .title h3 {
+    text-align: center;
+    font-size: 42px; }
+    /* line 9, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+    .contact .title h3 .baseColor {
+      color: #9f449b; }
+
+/* line 14, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+.contact h3:after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50px;
+  left: 388px;
+  border-left: 1px solid #9f449b;
+  border-bottom: 1px solid #9f449b; }
+
+/* line 25, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+.contact h3:before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -5px;
+  left: 658px;
+  border-right: 1px solid #9f449b;
+  border-top: 1px solid #9f449b; }
+
+/* line 37, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+.leftContainer {
+  width: 50%;
+  float: left; }
+  /* line 41, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+  .leftContainer input,
+  .leftContainer textarea {
+    width: 100%;
+    color: #676767;
+    font-size: 22px;
+    padding: 2px 0 2px 5px;
+    margin: 5px 0; }
+  /* line 48, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+  .leftContainer textarea {
+    min-height: 250px; }
+  /* line 51, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+  .leftContainer input[type=submit] {
+    display: block;
+    margin: 5px 0;
+    width: 225px;
+    height: 75px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #9f449b;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75); }
+
+/* line 68, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+.rightContainer {
+  width: 48%;
+  float: right; }
+  /* line 71, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+  .rightContainer p {
+    padding-left: 10px;
+    font-size: 18px;
+    color: #676767; }
+  /* line 76, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+  .rightContainer p:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 22px; }
+
+/* line 82, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+.socialIcons a {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #676767;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px 5px;
+  text-decoration: none;
+  position: relative; }
+  /* line 91, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+  .socialIcons a:hover {
+    background-color: #676767;
+    transition: background-color 0.7s ease; }
+    /* line 94, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+    .socialIcons a:hover p {
+      color: #fff; }
+  /* line 98, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+  .socialIcons a p {
+    color: #676767;
+    font-size: 20px;
+    position: absolute;
+    top: 7px;
+    left: 7px; }
+
+/* line 107, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_contact.scss */
+.contact::after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both; }
+
+/* line 1, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_services.scss */
+.services {
+  background-image: url("../images/quote.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  /* line 6, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_services.scss */
+  .services .serviceContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; }
+    /* line 11, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_services.scss */
+    .services .serviceContainer .serviceIcon {
+      width: 140px;
+      height: 140px;
+      margin: 80px auto 0;
+      display: block;
+      position: relative;
+      padding-top: 120px;
+      background-image: url("../images/shape.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+      /* line 22, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_services.scss */
+      .services .serviceContainer .serviceIcon:hover {
+        background-image: url("../images/shapeViolet.png");
+        transition: background-image 0.7s ease; }
+      /* line 26, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_services.scss */
+      .services .serviceContainer .serviceIcon .smallIcon {
+        width: 45px;
+        height: 45px;
+        background-image: url("../images/services.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 49px;
+        left: 49px; }
+    /* line 38, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_services.scss */
+    .services .serviceContainer p {
+      font-size: 32px;
+      text-align: center;
+      color: #fff;
+      margin-top: 30px;
+      margin-bottom: 150px; }
+
+/* line 1, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.statisticsContent {
+  display: flex;
+  justify-content: space-around;
+  margin: 120px 0; }
+  /* line 5, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+  .statisticsContent p {
+    text-align: center;
+    display: block;
+    color: #676767;
+    margin: 5px 0;
+    font-size: 18px; }
+  /* line 12, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+  .statisticsContent p:first-of-type {
+    font-size: 42px;
+    font-weight: bold; }
+
+/* line 17, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.photosAll, .testimonials:first-of-type div.photo, .testimonials:nth-of-type(2) div.photo, .testimonials:nth-of-type(3) div.photo, .testimonials:nth-of-type(4) div.photo, .testimonials:nth-of-type(5) div.photo, .testimonials:nth-of-type(6) div.photo {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 26, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.testimonials {
+  text-align: center; }
+  /* line 28, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+  .testimonials p {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 20px 0; }
+  /* line 33, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+  .testimonials p:first-of-type {
+    font-size: 26px;
+    line-height: 28px; }
+
+/* line 39, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.testimonials:first-of-type div.photo {
+  background-image: url("../images/teamMember4.jpeg"); }
+
+/* line 45, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.testimonials:nth-of-type(2) div.photo {
+  background-image: url("../images/teamMember2.jpg"); }
+
+/* line 51, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.testimonials:nth-of-type(3) div.photo {
+  background-image: url("../images/teamMember3.jpeg"); }
+
+/* line 57, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.testimonials:nth-of-type(4) div.photo {
+  background-image: url("../images/teamMember1.JPG"); }
+
+/* line 63, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.testimonials:nth-of-type(5) div.photo {
+  background-image: url("../images/teamMember5.jpeg"); }
+
+/* line 69, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.testimonials:nth-of-type(6) div.photo {
+  background-image: url("../images/teamMember2.jpg"); }
+
+/* line 76, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.testimonialsContent .bx-wrapper.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+  left: 0; }
+
+/* line 87, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.bx-controls-direction bx-prev,
+.bx-controls-direction bx-next {
+  display: none; }
+
+/* line 91, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/partials/_statistics.scss */
+.bx-pager {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10% !important;
+  position: absolute;
+  left: 45%; }
+
+/** VARIABLES 
+===================================*/
+/** RESET AND LAYOUT
+===================================*/
+/* line 5, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+  *zoom: 1;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y; }
+
+/* line 13, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper img {
+  max-width: 100%;
+  display: block; }
+
+/* line 17, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bxslider {
+  margin: 0;
+  padding: 0; }
+
+/* line 21, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+ul.bxslider {
+  list-style: none; }
+
+/* line 24, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-viewport {
+  /*fix other elements on the page moving (on Chrome)*/
+  -webkit-transform: translatez(0); }
+
+/** THEME
+===================================*/
+/* line 30, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper {
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  border: 5px solid #fff;
+  background: #fff; }
+
+/* line 38, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%; }
+
+/* LOADER */
+/* line 44, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url("images/bx_loader.gif") center center no-repeat #ffffff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000; }
+
+/* PAGER */
+/* line 55, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px; }
+
+/* line 63, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 77, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #000; }
+
+/* line 81, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline; }
+
+/* line 86, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-pager-item {
+  font-size: 0;
+  line-height: 0; }
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+/* line 91, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-prev {
+  left: 10px;
+  background: url("images/controls.png") no-repeat 0 -32px; }
+
+/* line 96, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus {
+  background-position: 0 0; }
+
+/* line 99, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-next {
+  right: 10px;
+  background: url("images/controls.png") no-repeat -43px -32px; }
+
+/* line 104, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus {
+  background-position: -43px 0; }
+
+/* line 107, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999; }
+
+/* line 117, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls-direction a.disabled {
+  display: none; }
+
+/* AUTO CONTROLS (START / STOP) */
+/* line 121, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls-auto {
+  text-align: center; }
+
+/* line 124, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  background: url("images/controls.png") -86px -11px no-repeat;
+  margin: 0 3px; }
+
+/* line 135, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active,
+.bx-wrapper .bx-controls-auto .bx-start:focus {
+  background-position: -86px 0; }
+
+/* line 138, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  background: url("images/controls.png") -86px -44px no-repeat;
+  margin: 0 3px; }
+
+/* line 149, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active,
+.bx-wrapper .bx-controls-auto .bx-stop:focus {
+  background-position: -86px -33px; }
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+/* line 153, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%; }
+
+/* line 157, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px; }
+
+/* IMAGE CAPTIONS */
+/* line 162, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%; }
+
+/* line 170, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/vendor/_jquery.bxslider.scss */
+.bx-wrapper .bx-caption span {
+  color: #fff;
+  font-family: Arial;
+  display: block;
+  font-size: .85em;
+  padding: 10px; }
+
+/* line 14, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/main.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 22, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/main.scss */
+.fullWidth {
+  width: 100%;
+  margin: 0 auto; }
+
+/* line 26, C:/Users/katar/Documents/PROJECTS/Landing-Page-Bhagaskara/scss/main.scss */
+.mainWidth {
+  width: 85%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */

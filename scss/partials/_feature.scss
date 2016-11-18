@@ -1,0 +1,59 @@
+section#feature {
+    background-color: rgb(238, 238, 238);
+    .featureContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        .iconsFour {
+            width: 140px;
+            height: 140px;
+            margin:167px auto 20px;
+            display: inline-block;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .heartIcon {
+            @extend .iconsFour;
+            background-image: url('../images/heart.png');
+            &:hover {
+                background-image: url('../images/heartViolet.png');
+                transition: background-image 0.7s ease;
+            }
+        }
+        .diamondIcon {
+            @extend .iconsFour;
+            background-image: url('../images/diamond.png');
+            &:hover {
+                background-image: url('../images/diamondViolet.png');
+                transition: background-image 0.7s ease;
+            }
+        }
+        .cupIcon {
+            @extend .iconsFour;
+            background-image: url('../images/cup.png');
+            &:hover {
+                background-image: url('../images/cupViolet.png');
+                transition: background-image 0.7s ease;
+            }
+        }
+        .phoneIcon {
+            @extend .iconsFour;
+            background-image: url('../images/phone.png');
+            &:hover {
+                background-image: url('../images/phoneViolet.png');
+                transition: background-image 0.7s ease;
+            }
+        }
+        h3{
+            font-size:22px;
+            margin:20px auto;
+        }
+        p{
+            font-size:15px;
+            margin-bottom:200px;
+            
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.portfolio {
+    .title {
+        margin: 100px auto;
+        color: #676767;
+        position: relative;
+        h3 {
+            text-align: center;
+            font-size: 42px;
+            .baseColor {
+                color: rgb(159, 68, 155);
+            }
+        }
+    }
+    h3:after {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 50px;
+        left: 388px;
+        border-left: 1px solid rgb(159, 68, 155);
+        border-bottom: 1px solid rgb(159, 68, 155);
+    }
+    h3:before {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: -5px;
+        left: 658px;
+        border-right: 1px solid rgb(159, 68, 155);
+        border-top: 1px solid rgb(159, 68, 155);
+    }
+    .categoriesContainer {
+        text-align: center;
+        margin: 50px auto;
+        div.tags {
+            width: 85px;
+            height: 40px;
+            display: inline-block;
+            border: 1px solid #676767;
+            border-radius: 5px;
+            color: #676767;
+            text-transform: uppercase;
+            font-size: 18px;
+            margin: 5px;
+            padding-top: 5px;
+            &:hover {
+                background-color: rgb(159, 68, 155);
+                color: #fff;
+                transition: background-color 0.7s ease;
+            }
+        }
+    }
+    .photoContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        div {
+            width: 30%;
+            margin: 5px 5px;
+        }
+    }
+    button {
+        display: block;
+        margin: 20px auto;
+        width: 225px;
+        height: 75px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        background-color: rgb(159, 68, 155);
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        -webkit-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: inset 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+}

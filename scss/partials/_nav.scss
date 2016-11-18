@@ -1,0 +1,46 @@
+        nav {
+            background-color: white;
+            .navContainer {
+                color: rgb(103, 103, 103);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 25px 0;
+                p {
+                    font-size: 30px;
+                    span.baseColor {
+                        color: rgb(159, 68, 155);
+                    }
+                }
+                #hamburgerMenu {
+                    display: none;
+                }
+                ul {
+                    display: block;
+//                    padding-left: 52px;
+                    text-align: right;
+                    li {
+                        display: inline;
+                        list-style-type: none;
+                    }
+                    a {
+                        font-size: 15px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        padding-left: 10px;
+                        &:hover {
+                            color: rgb(159, 68, 155);
+                        }
+                    }
+                }
+            }
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            box-shadow: 0px 15px 20px -15px rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: 0px 15px 20px -15px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 15px 20px -15px rgba(0, 0, 0, 0.5);
+        }

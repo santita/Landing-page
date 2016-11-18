@@ -1,0 +1,46 @@
+        .services {
+            background-image: url('../images/quote.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .serviceContainer{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                .serviceIcon {
+                    width: 140px;
+                    height: 140px;
+                    margin: 80px auto 0;
+                    display: block;
+                    position: relative;
+                    padding-top: 120px;
+                    background-image: url('../images/shape.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    &:hover {
+                        background-image: url('../images/shapeViolet.png');
+                        transition: background-image 0.7s ease;
+                    }
+                    .smallIcon {
+                        width: 45px;
+                        height: 45px;
+                        background-image: url('../images/services.png');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        position: absolute;
+                        top: 49px;
+                        left: 49px;
+                    }
+                }
+                p {
+                    font-size: 32px;
+                    text-align: center;
+                    color: #fff;
+                    margin-top: 30px;
+                    margin-bottom: 150px;
+                }
+            }
+        }
